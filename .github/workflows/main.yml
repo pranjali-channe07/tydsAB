@@ -9,12 +9,13 @@ on:
 jobs:
   demo-command1:
     runs-on: ubuntu-latest
+    
     steps:
       - name: show current working directory
         run: pwd
 
-        - name: list files in the directory
-          run: ls -la
+      - name: list files in the directory
+        run: ls -la
     
 
    
