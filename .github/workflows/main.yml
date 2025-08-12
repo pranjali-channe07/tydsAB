@@ -12,10 +12,10 @@ jobs:
     
     steps:
       -name: show current working directory
-        run: pwd
+       run: pwd
 
       -name: list files in the directory
-        run: ls -la
+       run: ls -la
 
 
       -name: print today's date
