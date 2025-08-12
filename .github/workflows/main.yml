@@ -1,0 +1,19 @@
+name: Basic Commands
+
+on:
+  push:
+     branches:
+        -main
+        -newb
+        
+  
+   
+
+
+
+jobs:
+  demo-command1:
+    runs-on: ubuntu-latest
+
+   
+        
